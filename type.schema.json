@@ -644,9 +644,14 @@
             }
           },
           "vert": {
-            "type": "array",
-            "items": {
-              "type": "string"
+            "type": "object",
+            "properties": {
+              "art": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
             }
           },
           "diett": {
@@ -735,7 +740,7 @@
           "type": "string"
         },
         "url": {
-          "type": "null"
+          "type": "string"
         },
         "tool": {
           "type": "object",
@@ -752,13 +757,16 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-17T12:02:29.807Z",
+    "produsertUtc": "2019-10-17T12:59:05.050Z",
     "utgiver": "Artsdatabanken",
-    "url": null,
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-hjemmeside/master/type.schema.json",
     "tool": {
       "name": "art-bilde-hjemmeside"
     },
