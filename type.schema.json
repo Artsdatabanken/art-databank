@@ -768,11 +768,11 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-25T23:19:04.939Z",
+    "produsertUtc": "2019-11-26T01:26:36.731Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
-      "name": "art-bilde-hjemmeside"
+      "name": "art-databank-lastejobb"
     },
     "elementer": 3
   }
