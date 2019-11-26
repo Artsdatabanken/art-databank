@@ -39,6 +39,9 @@
           "kode": {
             "type": "string"
           },
+          "title": {
+            "type": "string"
+          },
           "beskrivelse": {
             "type": "object",
             "properties": {
@@ -61,17 +64,6 @@
                 "properties": {
                   "nob": {
                     "type": "string"
-                  }
-                }
-              },
-              "biologi": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
                   }
                 }
               },
@@ -589,16 +581,19 @@
               }
             }
           },
-          "referanse": {
+          "missingNode": {
+            "type": "string"
+          },
+          "biologi": {
             "type": "object",
             "properties": {
               "nob": {
-                "type": "string"
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             }
-          },
-          "missingNode": {
-            "type": "string"
           },
           "sang": {
             "type": "object",
@@ -654,6 +649,14 @@
               }
             }
           },
+          "referanse": {
+            "type": "object",
+            "properties": {
+              "nob": {
+                "type": "string"
+              }
+            }
+          },
           "diett": {
             "type": "object",
             "properties": {
@@ -697,6 +700,7 @@
         },
         "required": [
           "kode",
+          "title",
           "beskrivelse",
           "blomstringstid",
           "habitat",
@@ -710,10 +714,10 @@
           "reproduksjon",
           "body",
           "økologi",
-          "referanse",
           "2",
           "kommentar",
           "3",
+          "biologi",
           "sang",
           "literal",
           "missingNode",
@@ -764,9 +768,9 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-17T12:59:05.050Z",
+    "produsertUtc": "2019-11-25T23:19:04.939Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-hjemmeside/master/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
       "name": "art-bilde-hjemmeside"
     },
