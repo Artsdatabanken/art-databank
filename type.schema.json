@@ -7,35 +7,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "0": {
-            "type": "string"
-          },
-          "1": {
-            "type": "string"
-          },
-          "2": {
-            "type": "string"
-          },
-          "3": {
-            "type": [
-              "object",
-              "string"
-            ],
-            "properties": {
-              "missingNode": {
-                "type": "string"
-              }
-            }
-          },
-          "4": {
-            "type": "string"
-          },
-          "5": {
-            "type": "string"
-          },
-          "6": {
-            "type": "string"
-          },
           "kode": {
             "type": "string"
           },
@@ -46,6 +17,12 @@
             "type": "object",
             "properties": {
               "nob": {
+                "type": "string"
+              },
+              "eng": {
+                "type": "string"
+              },
+              "nn": {
                 "type": "string"
               }
             }
@@ -79,10 +56,7 @@
                 "type": "object",
                 "properties": {
                   "nob": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
+                    "type": "string"
                   }
                 }
               }
@@ -95,10 +69,7 @@
                 "type": "object",
                 "properties": {
                   "nob": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
+                    "type": "string"
                   },
                   "beskrivelse": {
                     "type": "object",
@@ -146,10 +117,7 @@
                 "type": "object",
                 "properties": {
                   "nob": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
+                    "type": "string"
                   }
                 }
               },
@@ -231,7 +199,12 @@
                 }
               },
               "vingespenn": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                  "nob": {
+                    "type": "string"
+                  }
+                }
               },
               "larve": {
                 "type": "object",
@@ -287,7 +260,12 @@
             "type": "object",
             "properties": {
               "dialekt": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                  "nob": {
+                    "type": "string"
+                  }
+                }
               }
             }
           },
@@ -314,10 +292,7 @@
                 "type": "object",
                 "properties": {
                   "nob": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
+                    "type": "string"
                   }
                 }
               },
@@ -357,10 +332,7 @@
                 "type": "object",
                 "properties": {
                   "nob": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
+                    "type": "string"
                   }
                 }
               },
@@ -398,10 +370,7 @@
                     "type": "object",
                     "properties": {
                       "nob": {
-                        "type": [
-                          "string",
-                          "null"
-                        ]
+                        "type": "string"
                       }
                     }
                   }
@@ -495,18 +464,34 @@
             }
           },
           "body": {
-            "type": "string"
+            "type": "object",
+            "properties": {
+              "eng": {
+                "type": "string"
+              },
+              "nob": {
+                "type": "string"
+              },
+              "nn": {
+                "type": "string"
+              }
+            }
           },
           "literal": {
             "type": "object",
             "properties": {
               "Alias": {
-                "type": [
-                  "array",
-                  "string"
-                ],
-                "items": {
-                  "type": "string"
+                "type": "object",
+                "properties": {
+                  "nob": {
+                    "type": [
+                      "array",
+                      "string"
+                    ],
+                    "items": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -531,10 +516,7 @@
                 }
               },
               "flyvetid": {
-                "type": [
-                  "object",
-                  "string"
-                ],
+                "type": "object",
                 "properties": {
                   "nob": {
                     "type": "string"
@@ -563,10 +545,7 @@
             "type": "object",
             "properties": {
               "nob": {
-                "type": [
-                  "string",
-                  "null"
-                ]
+                "type": "string"
               }
             }
           },
@@ -574,24 +553,15 @@
             "type": "object",
             "properties": {
               "nob": {
-                "type": [
-                  "string",
-                  "null"
-                ]
+                "type": "string"
               }
             }
-          },
-          "missingNode": {
-            "type": "string"
           },
           "biologi": {
             "type": "object",
             "properties": {
               "nob": {
-                "type": [
-                  "string",
-                  "null"
-                ]
+                "type": "string"
               }
             }
           },
@@ -631,10 +601,7 @@
             "type": "object",
             "properties": {
               "nob": {
-                "type": [
-                  "string",
-                  "null"
-                ]
+                "type": "string"
               }
             }
           },
@@ -654,25 +621,6 @@
             "properties": {
               "nob": {
                 "type": "string"
-              }
-            }
-          },
-          "diett": {
-            "type": "object",
-            "properties": {
-              "art": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "tekst": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
               }
             }
           },
@@ -696,6 +644,19 @@
                 }
               }
             }
+          },
+          "diett": {
+            "type": "object",
+            "properties": {
+              "tekst": {
+                "type": "object",
+                "properties": {
+                  "nob": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
           }
         },
         "required": [
@@ -709,25 +670,18 @@
           "tradisjonell_bruk",
           "utbredelse",
           "systematikk",
-          "0",
-          "1",
           "reproduksjon",
           "body",
           "økologi",
-          "2",
           "kommentar",
-          "3",
           "biologi",
           "sang",
           "literal",
-          "missingNode",
-          "4",
-          "5",
           "import",
           "samarbeidspartnere",
           "vert",
-          "diett",
-          "sykdom"
+          "sykdom",
+          "diett"
         ]
       }
     },
@@ -768,7 +722,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-26T01:26:36.731Z",
+    "produsertUtc": "2019-11-26T23:18:40.759Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
