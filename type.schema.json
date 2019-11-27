@@ -260,12 +260,7 @@
             "type": "object",
             "properties": {
               "dialekt": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
+                "type": "string"
               }
             }
           },
@@ -722,7 +717,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-26T23:18:40.759Z",
+    "produsertUtc": "2019-11-26T23:49:15.167Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
