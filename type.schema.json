@@ -10,8 +10,16 @@
           "kode": {
             "type": "string"
           },
-          "title": {
-            "type": "string"
+          "tittel": {
+            "type": "object",
+            "properties": {
+              "sci": {
+                "type": "string"
+              },
+              "dia": {
+                "type": "string"
+              }
+            }
           },
           "beskrivelse": {
             "type": "object",
@@ -253,14 +261,6 @@
                     "type": "string"
                   }
                 }
-              }
-            }
-          },
-          "tittel": {
-            "type": "object",
-            "properties": {
-              "dia": {
-                "type": "string"
               }
             }
           },
@@ -665,12 +665,11 @@
         },
         "required": [
           "kode",
-          "title",
+          "tittel",
           "beskrivelse",
           "blomstringstid",
           "habitat",
           "morfologi",
-          "tittel",
           "tradisjonell_bruk",
           "utbredelse",
           "systematikk",
@@ -703,7 +702,7 @@
           "type": "string"
         },
         "url": {
-          "type": "null"
+          "type": "string"
         },
         "tool": {
           "type": "object",
@@ -720,13 +719,16 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2020-02-17T20:45:45.076Z",
+    "produsertUtc": "2020-02-17T22:14:02.080Z",
     "utgiver": "Artsdatabanken",
-    "url": null,
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
       "name": "art-databank-lastejobb"
     },
