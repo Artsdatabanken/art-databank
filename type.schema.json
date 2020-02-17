@@ -652,6 +652,15 @@
                 }
               }
             }
+          },
+          "template": {
+            "type": [
+              "array",
+              "string"
+            ],
+            "items": {
+              "type": "string"
+            }
           }
         },
         "required": [
@@ -676,7 +685,8 @@
           "samarbeidspartnere",
           "vert",
           "sykdom",
-          "diett"
+          "diett",
+          "template"
         ]
       }
     },
@@ -693,7 +703,7 @@
           "type": "string"
         },
         "url": {
-          "type": "string"
+          "type": "null"
         },
         "tool": {
           "type": "object",
@@ -710,16 +720,13 @@
           "type": "number"
         }
       }
-    },
-    "$schema": {
-      "type": "string"
     }
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-27T07:55:27.793Z",
+    "produsertUtc": "2020-02-17T20:45:45.076Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
+    "url": null,
     "tool": {
       "name": "art-databank-lastejobb"
     },
