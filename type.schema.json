@@ -21,6 +21,9 @@
               }
             }
           },
+          "url": {
+            "type": "string"
+          },
           "beskrivelse": {
             "type": "object",
             "properties": {
@@ -666,6 +669,7 @@
         "required": [
           "kode",
           "tittel",
+          "url",
           "beskrivelse",
           "blomstringstid",
           "habitat",
@@ -726,7 +730,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2020-02-17T22:14:02.080Z",
+    "produsertUtc": "2020-02-17T22:18:01.313Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
     "tool": {
