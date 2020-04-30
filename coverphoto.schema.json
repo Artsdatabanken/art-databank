@@ -1,0 +1,243 @@
+{
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
+      "items": {
+        "items": {
+          "properties": {
+            "kode": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kode",
+            "value"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {
+                          "properties": {
+                            "elementer": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "produsertUtc": {
+                              "type": "string"
+                            },
+                            "source": {
+                              "items": {
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "tittel": {
+                              "type": "string"
+                            },
+                            "tool": {
+                              "properties": {
+                                "commit": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "url": {
+                              "type": "null"
+                            },
+                            "utgiver": {
+                              "type": "string"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "properties": {
+                          "commit": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "url": {
+                        "type": "null"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "type": "object"
+          },
+          "url": {
+            "type": "string"
+          },
+          "utgiver": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    },
+    "type": "object"
+  },
+  "meta": {
+    "tittel": "Coverphoto.schema",
+    "produsertUtc": "2020-04-30T08:20:14.611Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/tree/coverphoto.schema.json",
+    "tool": {
+      "name": "art-databank-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+    },
+    "elementer": 3,
+    "source": [
+      {
+        "name": "30_arter",
+        "tittel": "30 arter",
+        "produsertUtc": "2020-04-30T08:20:09.840Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "art-databank-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+        },
+        "elementer": 4779,
+        "source": [
+          {
+            "name": "20_denormalize",
+            "tittel": "20 denormalize",
+            "produsertUtc": "2020-04-30T08:20:06.040Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "art-databank-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+            },
+            "elementer": 306058,
+            "source": [
+              {
+                "name": "10_clean",
+                "tittel": "10 clean",
+                "produsertUtc": "2020-04-30T08:19:57.157Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "art-databank-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/84d73c61bd4f8fce04546cd9a8ca4e587adadb58"
+                },
+                "elementer": 306058,
+                "source": [
+                  {
+                    "name": "databank"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

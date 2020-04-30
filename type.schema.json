@@ -1,741 +1,994 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "items": {
-      "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
       "items": {
-        "type": "object",
-        "properties": {
-          "kode": {
-            "type": "string"
-          },
-          "tittel": {
-            "type": "object",
-            "properties": {
-              "sci": {
+        "items": {
+          "properties": {
+            "beskrivelse": {
+              "properties": {
+                "eng": {
+                  "type": "string"
+                },
+                "nn": {
+                  "type": "string"
+                },
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "biologi": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "blomstringstid": {
+              "items": {
                 "type": "string"
               },
-              "dia": {
+              "type": "array"
+            },
+            "body": {
+              "properties": {
+                "eng": {
+                  "type": "string"
+                },
+                "nn": {
+                  "type": "string"
+                },
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "diett": {
+              "properties": {
+                "tekst": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "fysiologi": {
+              "properties": {
+                "indre organer": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "silke": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "habitat": {
+              "properties": {
+                "levesett": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "levested": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "voksested": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "import": {
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "kode": {
+              "type": "string"
+            },
+            "kommentar": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "literal": {
+              "properties": {
+                "Alias": {
+                  "properties": {
+                    "nob": {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": [
+                        "array",
+                        "string"
+                      ]
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "morfologi": {
+              "properties": {
+                "anatomi": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "beskrivelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "farge": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "gift": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "kjemi": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "kjennetegn": {
+                  "properties": {
+                    "beskrivelse": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "mikroskopisk": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "klekking": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "kromosomtall": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "kroppsbygning": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "kroppsdel": {
+                  "properties": {
+                    "kropp": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "skall": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                },
+                "larve": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "sporefarge": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "struktur_oppbygging": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "størrelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "tannformel": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "unge_stadier": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "utseende": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "variasjon": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "vingespenn": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "ytre_bygning": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "predator": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "referanse": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "reproduksjon": {
+              "properties": {
+                "beskrivelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "egg": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "flyvetid": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "hybridisering": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "livssyklus": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "samarbeidspartnere": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "sang": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "sykdom": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "systematikk": {
+              "properties": {
+                "antall": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "artsbestemmelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "forveksling": {
+                  "properties": {
+                    "art": {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "beskrivelse": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                },
+                "geografi": {
+                  "properties": {
+                    "norden": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                },
+                "inndeling": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "navngivning": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "nob": {
+                  "type": "string"
+                },
+                "taksonomi": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "underart": {
+                  "properties": {
+                    "beskrivelse": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "karakteristisk": {
+                      "properties": {
+                        "nob": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                },
+                "videre_bestemmelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "template": {
+              "items": {
                 "type": "string"
-              }
+              },
+              "type": [
+                "array",
+                "string"
+              ]
+            },
+            "tittel": {
+              "properties": {
+                "dia": {
+                  "type": "string"
+                },
+                "sci": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "tradisjonell_bruk": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "url": {
+              "type": "string"
+            },
+            "utbredelse": {
+              "properties": {
+                "beskrivelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "forekomststatus": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "global": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "globalt": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "midt-norge": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "norge": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "nær_norge": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "økologi_livssyklus": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "økologi_utbredelse": {
+                  "properties": {
+                    "nob": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "vert": {
+              "properties": {
+                "art": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            },
+            "økologi": {
+              "properties": {
+                "nob": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
             }
+          },
+          "required": [
+            "kode",
+            "tittel",
+            "url",
+            "beskrivelse",
+            "blomstringstid",
+            "habitat",
+            "morfologi",
+            "tradisjonell_bruk",
+            "utbredelse",
+            "systematikk",
+            "reproduksjon",
+            "body",
+            "økologi",
+            "kommentar",
+            "biologi",
+            "sang",
+            "literal",
+            "import",
+            "samarbeidspartnere",
+            "vert",
+            "sykdom",
+            "diett",
+            "template"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {
+                          "properties": {
+                            "elementer": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "produsertUtc": {
+                              "type": "string"
+                            },
+                            "source": {
+                              "items": {
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name"
+                                ],
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "tittel": {
+                              "type": "string"
+                            },
+                            "tool": {
+                              "properties": {
+                                "commit": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "url": {
+                              "type": "null"
+                            },
+                            "utgiver": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "tittel",
+                            "produsertUtc",
+                            "utgiver",
+                            "url",
+                            "tool",
+                            "elementer",
+                            "source"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "properties": {
+                          "commit": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "url": {
+                        "type": "null"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "tittel",
+                      "produsertUtc",
+                      "utgiver",
+                      "url",
+                      "tool",
+                      "elementer",
+                      "source"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "tittel",
+                "produsertUtc",
+                "utgiver",
+                "url",
+                "tool",
+                "elementer",
+                "source"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "type": "object"
           },
           "url": {
             "type": "string"
           },
-          "beskrivelse": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              },
-              "eng": {
-                "type": "string"
-              },
-              "nn": {
-                "type": "string"
-              }
-            }
-          },
-          "blomstringstid": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "habitat": {
-            "type": "object",
-            "properties": {
-              "voksested": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "levested": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "levesett": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "morfologi": {
-            "type": "object",
-            "properties": {
-              "kjennetegn": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  },
-                  "beskrivelse": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  },
-                  "mikroskopisk": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "struktur_oppbygging": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "kromosomtall": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "anatomi": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "beskrivelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "variasjon": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "kroppsdel": {
-                "type": "object",
-                "properties": {
-                  "kropp": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  },
-                  "skall": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "størrelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "kroppsbygning": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "farge": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "gift": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "ytre_bygning": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "unge_stadier": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "vingespenn": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "larve": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "klekking": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "utseende": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "kjemi": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "sporefarge": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "tannformel": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "tradisjonell_bruk": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "utbredelse": {
-            "type": "object",
-            "properties": {
-              "midt-norge": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "beskrivelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "norge": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "økologi_livssyklus": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "økologi_utbredelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "global": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "forekomststatus": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "nær_norge": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "globalt": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "systematikk": {
-            "type": "object",
-            "properties": {
-              "forveksling": {
-                "type": "object",
-                "properties": {
-                  "art": {
-                    "type": "array",
-                    "items": {
-                      "type": "string"
-                    }
-                  },
-                  "beskrivelse": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "inndeling": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "nob": {
-                "type": "string"
-              },
-              "videre_bestemmelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "underart": {
-                "type": "object",
-                "properties": {
-                  "beskrivelse": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  },
-                  "karakteristisk": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "artsbestemmelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "geografi": {
-                "type": "object",
-                "properties": {
-                  "norden": {
-                    "type": "object",
-                    "properties": {
-                      "nob": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "taksonomi": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "navngivning": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "antall": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "body": {
-            "type": "object",
-            "properties": {
-              "eng": {
-                "type": "string"
-              },
-              "nob": {
-                "type": "string"
-              },
-              "nn": {
-                "type": "string"
-              }
-            }
-          },
-          "literal": {
-            "type": "object",
-            "properties": {
-              "Alias": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": [
-                      "array",
-                      "string"
-                    ],
-                    "items": {
-                      "type": "string"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "reproduksjon": {
-            "type": "object",
-            "properties": {
-              "livssyklus": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "hybridisering": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "flyvetid": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "beskrivelse": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "egg": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "kommentar": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "økologi": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "biologi": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "sang": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "predator": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "sykdom": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "import": {
-            "type": "object",
-            "properties": {
-              "description": {
-                "type": "string"
-              }
-            }
-          },
-          "samarbeidspartnere": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "vert": {
-            "type": "object",
-            "properties": {
-              "art": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "referanse": {
-            "type": "object",
-            "properties": {
-              "nob": {
-                "type": "string"
-              }
-            }
-          },
-          "fysiologi": {
-            "type": "object",
-            "properties": {
-              "indre organer": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              },
-              "silke": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "diett": {
-            "type": "object",
-            "properties": {
-              "tekst": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "template": {
-            "type": [
-              "array",
-              "string"
-            ],
-            "items": {
-              "type": "string"
-            }
+          "utgiver": {
+            "type": "string"
           }
         },
-        "required": [
-          "kode",
-          "tittel",
-          "url",
-          "beskrivelse",
-          "blomstringstid",
-          "habitat",
-          "morfologi",
-          "tradisjonell_bruk",
-          "utbredelse",
-          "systematikk",
-          "reproduksjon",
-          "body",
-          "økologi",
-          "kommentar",
-          "biologi",
-          "sang",
-          "literal",
-          "import",
-          "samarbeidspartnere",
-          "vert",
-          "sykdom",
-          "diett",
-          "template"
-        ]
+        "type": "object"
       }
     },
-    "meta": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "produsertUtc": {
-          "type": "string"
-        },
-        "utgiver": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "tool": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "url": {
-              "type": "null"
-            }
-          }
-        },
-        "elementer": {
-          "type": "number"
-        }
-      }
-    },
-    "$schema": {
-      "type": "string"
-    }
+    "type": "object"
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2020-02-17T22:18:01.313Z",
+    "produsertUtc": "2020-04-30T08:20:14.320Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/tree/type.schema.json",
     "tool": {
-      "name": "art-databank-lastejobb"
+      "name": "art-databank-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
     },
-    "elementer": 3
+    "elementer": 3,
+    "source": [
+      {
+        "name": "30_arter",
+        "tittel": "30 arter",
+        "produsertUtc": "2020-04-30T08:20:09.840Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "art-databank-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+        },
+        "elementer": 4779,
+        "source": [
+          {
+            "name": "20_denormalize",
+            "tittel": "20 denormalize",
+            "produsertUtc": "2020-04-30T08:20:06.040Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "art-databank-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+            },
+            "elementer": 306058,
+            "source": [
+              {
+                "name": "10_clean",
+                "tittel": "10 clean",
+                "produsertUtc": "2020-04-30T08:19:57.157Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "art-databank-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/84d73c61bd4f8fce04546cd9a8ca4e587adadb58"
+                },
+                "elementer": 306058,
+                "source": [
+                  {
+                    "name": "databank"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "30_arter_taxon",
+        "tittel": "30 arter taxon",
+        "produsertUtc": "2020-04-30T08:20:09.975Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "art-databank-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+        },
+        "elementer": 209940,
+        "source": [
+          {
+            "name": "20_denormalize",
+            "tittel": "20 denormalize",
+            "produsertUtc": "2020-04-30T08:20:06.040Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "art-databank-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+            },
+            "elementer": 306058,
+            "source": [
+              {
+                "name": "10_clean",
+                "tittel": "10 clean",
+                "produsertUtc": "2020-04-30T08:19:57.157Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "art-databank-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/84d73c61bd4f8fce04546cd9a8ca4e587adadb58"
+                },
+                "elementer": 306058,
+                "source": [
+                  {
+                    "name": "databank"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
