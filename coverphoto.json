@@ -4593,6 +4593,14 @@
       "value": "https://artsdatabanken.no/Media/F7530"
     },
     {
+      "kode": "AR-131415",
+      "value": "https://artsdatabanken.no/Media/F35275"
+    },
+    {
+      "kode": "AR-131436",
+      "value": "https://artsdatabanken.no/Media/F35265"
+    },
+    {
       "kode": "AR-131443",
       "value": "https://artsdatabanken.no/Media/F6790"
     },
@@ -5497,6 +5505,26 @@
       "value": "https://artsdatabanken.no/Media/F16807"
     },
     {
+      "kode": "AR-140444",
+      "value": "https://artsdatabanken.no/Media/F33141"
+    },
+    {
+      "kode": "AR-140466",
+      "value": "https://artsdatabanken.no/Media/F31824"
+    },
+    {
+      "kode": "AR-141208",
+      "value": "https://artsdatabanken.no/Media/F30142"
+    },
+    {
+      "kode": "AR-141492",
+      "value": "https://artsdatabanken.no/Media/F33121"
+    },
+    {
+      "kode": "AR-141583",
+      "value": "https://artsdatabanken.no/Media/F31820"
+    },
+    {
       "kode": "AR-142",
       "value": "https://artsdatabanken.no/Media/F17371"
     },
@@ -5597,8 +5625,16 @@
       "value": "https://artsdatabanken.no/Media/F13592"
     },
     {
+      "kode": "AR-145219",
+      "value": "https://artsdatabanken.no/Media/F35263"
+    },
+    {
       "kode": "AR-145220",
       "value": "https://artsdatabanken.no/Media/F33328"
+    },
+    {
+      "kode": "AR-145222",
+      "value": "https://artsdatabanken.no/Media/F35267"
     },
     {
       "kode": "AR-145288",
@@ -5651,6 +5687,10 @@
     {
       "kode": "AR-147285",
       "value": "https://artsdatabanken.no/Media/F17567"
+    },
+    {
+      "kode": "AR-151497",
+      "value": "https://artsdatabanken.no/Media/F35271"
     },
     {
       "kode": "AR-151499",
@@ -6257,6 +6297,10 @@
       "value": "https://artsdatabanken.no/Media/F22544"
     },
     {
+      "kode": "AR-170189",
+      "value": "https://artsdatabanken.no/Media/F35484"
+    },
+    {
       "kode": "AR-170282",
       "value": "https://artsdatabanken.no/Media/F21043"
     },
@@ -6317,6 +6361,10 @@
       "value": "https://artsdatabanken.no/Media/F20763"
     },
     {
+      "kode": "AR-170455",
+      "value": "https://artsdatabanken.no/Media/F35007"
+    },
+    {
       "kode": "AR-170703",
       "value": "https://artsdatabanken.no/Media/F29780"
     },
@@ -6331,10 +6379,6 @@
     {
       "kode": "AR-173135",
       "value": "https://artsdatabanken.no/Media/F27433"
-    },
-    {
-      "kode": "AR-173990",
-      "value": "https://artsdatabanken.no/Media/F8637"
     },
     {
       "kode": "AR-186464",
@@ -6363,6 +6407,22 @@
     {
       "kode": "AR-204253",
       "value": "https://artsdatabanken.no/Media/F30599"
+    },
+    {
+      "kode": "AR-204380",
+      "value": "https://artsdatabanken.no/Media/F31868"
+    },
+    {
+      "kode": "AR-204403",
+      "value": "https://artsdatabanken.no/Media/F33067"
+    },
+    {
+      "kode": "AR-204405",
+      "value": "https://artsdatabanken.no/Media/F35435"
+    },
+    {
+      "kode": "AR-211651",
+      "value": "https://artsdatabanken.no/Media/F34992"
     },
     {
       "kode": "AR-21267",
@@ -6762,11 +6822,11 @@
     },
     {
       "kode": "AR-3192",
-      "value": "https://artsdatabanken.no/Media/F17636"
+      "value": "https://artsdatabanken.no/Media/F35136"
     },
     {
       "kode": "AR-3247",
-      "value": "https://artsdatabanken.no/Media/F17636"
+      "value": "https://artsdatabanken.no/Media/F35136"
     },
     {
       "kode": "AR-3248",
@@ -7098,7 +7158,7 @@
     },
     {
       "kode": "AR-3424",
-      "value": "https://artsdatabanken.no/Media/F8690"
+      "value": "https://artsdatabanken.no/Media/F29544"
     },
     {
       "kode": "AR-3449",
@@ -7158,7 +7218,7 @@
     },
     {
       "kode": "AR-3506",
-      "value": "https://artsdatabanken.no/Media/F8623"
+      "value": "https://artsdatabanken.no/Media/F35118"
     },
     {
       "kode": "AR-3510",
@@ -7170,11 +7230,11 @@
     },
     {
       "kode": "AR-3516",
-      "value": "https://artsdatabanken.no/Media/F8686"
+      "value": "https://artsdatabanken.no/Media/F35135"
     },
     {
       "kode": "AR-3518",
-      "value": "https://artsdatabanken.no/Media/F8690"
+      "value": "https://artsdatabanken.no/Media/F35119"
     },
     {
       "kode": "AR-3523",
@@ -7182,7 +7242,7 @@
     },
     {
       "kode": "AR-3525",
-      "value": "https://artsdatabanken.no/Media/F8682"
+      "value": "https://artsdatabanken.no/Media/F35120"
     },
     {
       "kode": "AR-3529",
@@ -7338,15 +7398,15 @@
     },
     {
       "kode": "AR-3922",
-      "value": "https://artsdatabanken.no/Media/F8669"
+      "value": "https://artsdatabanken.no/Media/F35110"
     },
     {
       "kode": "AR-3923",
-      "value": "https://artsdatabanken.no/Media/F8689"
+      "value": "https://artsdatabanken.no/Media/F35112"
     },
     {
       "kode": "AR-3925",
-      "value": "https://artsdatabanken.no/Media/F8679"
+      "value": "https://artsdatabanken.no/Media/F35113"
     },
     {
       "kode": "AR-3926",
@@ -7378,7 +7438,7 @@
     },
     {
       "kode": "AR-3950",
-      "value": "https://artsdatabanken.no/Media/F8671"
+      "value": "https://artsdatabanken.no/Media/F29608"
     },
     {
       "kode": "AR-3952",
@@ -7390,7 +7450,7 @@
     },
     {
       "kode": "AR-3955",
-      "value": "https://artsdatabanken.no/Media/F8671"
+      "value": "https://artsdatabanken.no/Media/F35116"
     },
     {
       "kode": "AR-3975",
@@ -11457,6 +11517,34 @@
       "value": "https://artsdatabanken.no/Media/F27488"
     },
     {
+      "kode": "AR-51219",
+      "value": "https://artsdatabanken.no/Media/F34983"
+    },
+    {
+      "kode": "AR-51220",
+      "value": "https://artsdatabanken.no/Media/F34987"
+    },
+    {
+      "kode": "AR-51221",
+      "value": "https://artsdatabanken.no/Media/F34993"
+    },
+    {
+      "kode": "AR-51223",
+      "value": "https://artsdatabanken.no/Media/F35001"
+    },
+    {
+      "kode": "AR-51233",
+      "value": "https://artsdatabanken.no/Media/F35009"
+    },
+    {
+      "kode": "AR-51239",
+      "value": "https://artsdatabanken.no/Media/F35014"
+    },
+    {
+      "kode": "AR-51263",
+      "value": "https://artsdatabanken.no/Media/F35025"
+    },
+    {
       "kode": "AR-51541",
       "value": "https://artsdatabanken.no/Media/F17138"
     },
@@ -11839,6 +11927,10 @@
     {
       "kode": "AR-52543",
       "value": "https://artsdatabanken.no/Media/F33341"
+    },
+    {
+      "kode": "AR-52550",
+      "value": "https://artsdatabanken.no/Media/F35277"
     },
     {
       "kode": "AR-52567",
@@ -12573,6 +12665,10 @@
       "value": "https://artsdatabanken.no/Media/F16287"
     },
     {
+      "kode": "AR-59140",
+      "value": "https://artsdatabanken.no/Media/F35270"
+    },
+    {
       "kode": "AR-6161",
       "value": "https://artsdatabanken.no/Media/F226"
     },
@@ -13295,50 +13391,50 @@
   ],
   "meta": {
     "tittel": "Coverphoto",
-    "produsertUtc": "2020-04-30T08:20:14.590Z",
+    "produsertUtc": "2020-08-29T17:30:28.721Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/tree/coverphoto.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/coverphoto.json",
     "tool": {
       "name": "art-databank-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
     },
-    "elementer": 3323,
+    "elementer": 3347,
     "source": [
       {
         "name": "30_arter",
         "tittel": "30 arter",
-        "produsertUtc": "2020-04-30T08:20:09.840Z",
+        "produsertUtc": "2020-08-29T17:30:24.787Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "art-databank-lastejobb",
-          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
         },
-        "elementer": 4779,
+        "elementer": 4966,
         "source": [
           {
             "name": "20_denormalize",
             "tittel": "20 denormalize",
-            "produsertUtc": "2020-04-30T08:20:06.040Z",
+            "produsertUtc": "2020-08-29T17:30:21.129Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
               "name": "art-databank-lastejobb",
-              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/8d5bd4ea5ae1e52151693ac964685cf4c60f258a"
+              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
             },
-            "elementer": 306058,
+            "elementer": 307947,
             "source": [
               {
                 "name": "10_clean",
                 "tittel": "10 clean",
-                "produsertUtc": "2020-04-30T08:19:57.157Z",
+                "produsertUtc": "2020-08-29T17:30:09.957Z",
                 "utgiver": "Artsdatabanken",
                 "url": null,
                 "tool": {
                   "name": "art-databank-lastejobb",
-                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/84d73c61bd4f8fce04546cd9a8ca4e587adadb58"
+                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
                 },
-                "elementer": 306058,
+                "elementer": 307947,
                 "source": [
                   {
                     "name": "databank"
@@ -13351,5 +13447,5 @@
       }
     ]
   },
-  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/tree/coverphoto.schema.json#"
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/coverphoto.schema.json#"
 }
