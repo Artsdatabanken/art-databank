@@ -5513,16 +5513,20 @@
       "value": "https://artsdatabanken.no/Media/F31824"
     },
     {
+      "kode": "AR-140531",
+      "value": "https://artsdatabanken.no/Media/F35589"
+    },
+    {
       "kode": "AR-141208",
       "value": "https://artsdatabanken.no/Media/F30142"
     },
     {
       "kode": "AR-141492",
-      "value": "https://artsdatabanken.no/Media/F33121"
+      "value": "https://artsdatabanken.no/Media/F33123"
     },
     {
       "kode": "AR-141583",
-      "value": "https://artsdatabanken.no/Media/F31820"
+      "value": "https://artsdatabanken.no/Media/F35588"
     },
     {
       "kode": "AR-142",
@@ -6423,6 +6427,10 @@
     {
       "kode": "AR-211651",
       "value": "https://artsdatabanken.no/Media/F34992"
+    },
+    {
+      "kode": "AR-211911",
+      "value": "https://artsdatabanken.no/Media/F35839"
     },
     {
       "kode": "AR-21267",
@@ -11541,6 +11549,26 @@
       "value": "https://artsdatabanken.no/Media/F35014"
     },
     {
+      "kode": "AR-51243",
+      "value": "https://artsdatabanken.no/Media/F35843"
+    },
+    {
+      "kode": "AR-51244",
+      "value": "https://artsdatabanken.no/Media/F36855"
+    },
+    {
+      "kode": "AR-51245",
+      "value": "https://artsdatabanken.no/Media/F36857"
+    },
+    {
+      "kode": "AR-51246",
+      "value": "https://artsdatabanken.no/Media/F36861"
+    },
+    {
+      "kode": "AR-51259",
+      "value": "https://artsdatabanken.no/Media/F35020"
+    },
+    {
       "kode": "AR-51263",
       "value": "https://artsdatabanken.no/Media/F35025"
     },
@@ -13391,50 +13419,50 @@
   ],
   "meta": {
     "tittel": "Coverphoto",
-    "produsertUtc": "2020-08-29T17:30:28.721Z",
+    "produsertUtc": "2020-09-14T07:20:05.542Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-databank/master/coverphoto.json",
     "tool": {
       "name": "art-databank-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
+      "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/619903ae39683154b5d16ac0b8853bef4ae0c645"
     },
-    "elementer": 3347,
+    "elementer": 3354,
     "source": [
       {
         "name": "30_arter",
         "tittel": "30 arter",
-        "produsertUtc": "2020-08-29T17:30:24.787Z",
+        "produsertUtc": "2020-09-14T07:20:01.284Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "art-databank-lastejobb",
-          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
+          "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/619903ae39683154b5d16ac0b8853bef4ae0c645"
         },
         "elementer": 4966,
         "source": [
           {
             "name": "20_denormalize",
             "tittel": "20 denormalize",
-            "produsertUtc": "2020-08-29T17:30:21.129Z",
+            "produsertUtc": "2020-09-14T07:19:57.168Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
               "name": "art-databank-lastejobb",
-              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
+              "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/619903ae39683154b5d16ac0b8853bef4ae0c645"
             },
-            "elementer": 307947,
+            "elementer": 308144,
             "source": [
               {
                 "name": "10_clean",
                 "tittel": "10 clean",
-                "produsertUtc": "2020-08-29T17:30:09.957Z",
+                "produsertUtc": "2020-09-14T07:19:45.292Z",
                 "utgiver": "Artsdatabanken",
                 "url": null,
                 "tool": {
                   "name": "art-databank-lastejobb",
-                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/9e4b72b9b6f5200b2848e3d76e25fac789b78871"
+                  "commit": "https://github.com/Artsdatabanken/art-databank-lastejobb/master/619903ae39683154b5d16ac0b8853bef4ae0c645"
                 },
-                "elementer": 307947,
+                "elementer": 308144,
                 "source": [
                   {
                     "name": "databank"
